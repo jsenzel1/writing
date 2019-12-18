@@ -1,0 +1,61 @@
+html, body 
+{
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  font-family: "Georgia";
+  font-size: 1.25em;
+
+  width: 90%;
+  margin: auto;
+}
+canvas {
+  display: block;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+div{
+    text-align: center;
+    margin-top: 7%;
+}
+
+a{
+    text-align: center;
+    font-size: 3em;
+}
+
+a:link{
+color: black;
+text-decoration: underline;
+}
+
+a:visited{
+color: black;
+}
+
+a:hover {
+    text-decoration: none;
+  }
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
